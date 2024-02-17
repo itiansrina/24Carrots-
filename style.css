@@ -75,8 +75,59 @@ li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
+.main-navigation li {
+    position: relative;
+}
+.logo {
+    width: 191px;
+    min-width: 160px;
+    height: 43px;
+    text-align: center;
+    background-image: url(img/24carrots.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    font-size: 0px !important;
+    margin: 0 12%;
+    left: 40px;
+}
 .main-navigation ul {
     list-style: none;
+}
+.main-navigation ul li {
+    padding: 0px 15px;
+}
+.main-navigation li {
+    position: relative;
+}
+.main-navigation ul li.nav-btn a {
+    color: #FFF;
+    background-color: #C15627;
+    border-radius: 30px;
+    padding: 5px 13px;
+    text-wrap: nowrap;
+    top: -5px;
+    position: relative;
+    transition: .5s;
+    font-size: 13px;
+}
+.main-navigation ul li a {
+    /* color: #1A4122; */
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    /* font-size: 0.875rem; */
+    letter-spacing: 2.1px;
+    font-style: normal;
+    font-weight: 450;
+}
+body a:visited {
+    /* color: #1A4122; */
+    text-decoration: underline;
+}
+.main-navigation a {
+    display: block;
+    /* text-decoration: none; */
 }
 .main-navigation {
     top: 30px;
