@@ -481,159 +481,48 @@ img {
     z-index: 2;
     margin: -50px auto 0;
 }
-square-slider-block {
-    overflow: hidden;
-    margin: 4.5rem 0;
+/* screen and (max-width: 1000px) */
+.youtube-embed-block {
+    padding-top: 0;
+    padding-bottom: 0;
 }
-[data-js="square-slider"].js-is-ready {
-    opacity: 1;
-}
-[data-js="square-slider"] {
-    /* opacity: 0; */
-    transition: opacity linear 500ms;
-}
-.square-slider__container {
-    width: 100%;
-    padding: 0 2rem;
-    overflow: visible;
-}
-.flickity-enabled.is-draggable {
-    /* -webkit-tap-highlight-color: transparent; */
-    /* -webkit-user-select: none; */
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-.flickity-enabled {
+.youtube-embed-block {
+    /* padding-top: 60px; */
+    /* padding-bottom: 100px; */
     position: relative;
 }
-.flickity-enabled.is-draggable .flickity-viewport {
-    /* cursor: move; */
-    /* cursor: -webkit-grab; */
-    cursor: grab;
-    height: 274px;
-    touch-action: pan-y;
-
+/* @media screen and (max-width: 1000px) */
+.youtube-embed-block.grey-up:before {
+    height: 885px;
 }
-[data-js="square-slider"] .flickity-viewport {
-    overflow: visible;
-}
-.flickity-viewport {
-    /* overflow: hidden; */
-    position: relative;
-    /* height: 100%; */
-}
-.flickity-slider {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    transform: translateX(-173.57);
-}
-/* @media (max-width: 1000px) */
-.square-slider__slide {
-    max-width: 17.125rem;
-    position: absolute;
-    left: 0px;
-    transform: translateX(0%);
-    
-}
-.square-slider__slide {
-    /* position: relative; */
-    width: 100%;
-    margin-right: 2rem;
-    /* max-width: 28.125rem; */
-}
-.square-slider__slide::before {
-    content: '';
+.youtube-wrap {
+    margin: 0px auto;
     display: block;
-    padding-bottom: 100%;
-}
-*::before, *::after {
-    box-sizing: inherit;
-}
-body a:visited {
-    color: #1A4122;
-    text-decoration: underline;
-}
-.venue-sq-preview {
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-.square-slider__slide img {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-img {
-    /* height: auto; */
-    max-width: 100%;
-}
-img {
-    border-style: none;
-}
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
-body a:visited {
-    color: #1A4122;
-    /* text-decoration: underline; */
-}
-.btn-outline.white {
-    background-color: transparent;
-    color: #FFF;
-    border: solid #FFF 1px;
-}
-.venue-sq-preview__btn {
-    display: none;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-.btn-outline {
-    /* background-color: transparent; */
-    border-radius: 30px;
-    padding: 10px 60px 10px 40px;
-    text-wrap: nowrap;
-    /* position: relative; */
-    /* text-transform: uppercase; */
-    font-family: "futura-pt", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 150%;
-    letter-spacing: 0.6px;
-    text-transform: uppercase;
-    text-decoration: none;
-    /* color: #C15627; */
-    /* border: solid 1px #C15627; */
-    transition: .2s;
-    cursor: pointer;
     position: relative;
-    display: inline-block;
     z-index: 2;
+    padding: 30px;
 }
-.venue-sq-preview__content {
+.fluid-width-video-wrapper {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    padding-top: 56.25% !important;
+}
+iframe.__youtube_prefs__ {
+    border-width: 0;
+}
+.fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object{
     position: absolute;
+    top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 1.5rem;
-    color: #ffffff;
+    width: 100%;
+    height: 100%;
 }
-*{
-    position: absolute;
-    left: 0px;
-    transform: translateX(111.68%);
+iframe {
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    /* border-width: 2px; */
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
 }
