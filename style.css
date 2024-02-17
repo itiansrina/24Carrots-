@@ -436,12 +436,11 @@ img {
 .circle-content-block {
     overflow-x: hidden;
 }
-*{
-background-image: url(https://24carrots.com/wp-content/uploads/2023/10/unforegetable-banner.png);
-}
+
 /* @media screen and (max-width: 1000px) */
 .circle-content-block .circle-banner {
     min-height: 365px;
+    background-image: url(https://24carrots.com/wp-content/uploads/2023/10/unforegetable-banner.png);
 }
 .circle-content-block .circle-banner {
     background-size: cover;
@@ -458,4 +457,43 @@ background-image: url(https://24carrots.com/wp-content/uploads/2023/10/unforeget
     position: relative;
     z-index: 2;
     margin: -50px auto 0;
+}
+/* @media screen and (max-width: 1000px) */
+.circle-content-block .half-cirlce {
+    height: 257px;
+    width: 413px;
+}
+.circle-content-block .half-cirlce {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 345px 345px 0 0;
+    background-color: #fff;
+    display: block;
+    z-index: 23344;
+    /* height: 316px; */
+    /* width: 643px; */
+    bottom: -292px;
+}
+.circle-content-block .circle-content {
+    max-width: 620px;
+    position: relative;
+    z-index: 2;
+    margin: -50px auto 0;
+}
+square-slider-block {
+    overflow: hidden;
+    margin: 4.5rem 0;
+}
+[data-js="square-slider"].js-is-ready {
+    opacity: 1;
+}
+[data-js="square-slider"] {
+    /* opacity: 0; */
+    transition: opacity linear 500ms;
+}
+.square-slider__container {
+    width: 100%;
+    padding: 0 2rem;
+    overflow: visible;
 }
