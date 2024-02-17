@@ -1,0 +1,196 @@
+body {
+    font-family: "futura-pt", sans-serif;
+    outline: none !important;
+    overflow-x: hidden;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0px auto;
+    padding: 20px ;
+}
+.main-container
+{
+    
+        color: #1A4122;
+        text-transform: uppercase;
+        font-family: "futura-pt", sans-serif;
+        font-size: 0.875rem;
+        letter-spacing: 2.1px;
+        font-style: normal;
+        font-weight: 450;
+}
+.main-container a {
+    display: block;
+    text-decoration: none;
+    display: inline;
+    padding: 45px;
+    color: #1A4122;
+
+}
+/* .entry-content {
+    counter-reset: footnotes;
+} */
+.tvideo {
+    margin-bottom: 60px;
+}
+.home .testimonial-video-block {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/* .testimonial-video-block.single-vid {
+    background-color: #BDBDBD;
+    padding: 60px 0px;
+} */
+.video-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.testimonial-video-block video {
+    width: 100%;
+    height: 100%;
+    min-height: 550px;
+    object-fit: cover;
+}
+.testimonial-video-block.single-vid h2 {
+    max-width: 900px;
+    position: absolute;
+    color: #FFF;
+}
+/* @media screen and (max-width: 1000px) */
+.tvideo h2 {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin: -3%;
+    letter-spacing:-3px ;
+}
+h1, h2, h3 {
+    font-family: "F37 Caslon", serif;
+    font-weight: lighter;
+}
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+}
+.down-cheveron {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(img/icon/down-cheveron.svg);
+    width: 38px;
+    height: 12px;
+    position: absolute;
+    bottom: 52px;
+}
+/* @media screen and (max-width: 1000px) */
+.content-slider-section {
+    padding-top: 0px;
+}
+/* section {
+    display: block;
+} */
+.flex_container
+{
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    align-content: space-between;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    clear: both;
+
+}
+/* @media screen and (max-width: 1000px) */
+.content-slider-section .flex_container .flex_item {
+    width: 100%;
+}
+.content-slider-section .flex_item.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* @media screen and (max-width: 1000px) */
+.content-slider-section .content-wrap {
+    padding-right: 0;
+}
+/* @media screen and (max-width: 1000px) */
+.content-slider-section .content-wrap {
+    max-width: 550px;
+    float: right;
+    padding-right: 0;
+    text-align: center;
+}
+/* @media screen and (max-width: 1000px) */
+.twentyfour-content h3, .twentyfour-content h4, .twentyfour-content h5, .twentyfour-content ul {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.twentyfour-content h3 {
+    color: #647B4E;
+    text-align: center;
+    font-family: "Rustica", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+}
+.btn {
+    background-color: #C15627;
+    border-radius: 30px;
+    padding: 10px 60px 10px 40px;
+    text-wrap: nowrap;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    transition: .2s;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+/* @media screen and (max-width: 1000px) */
+.content-slider-section .content-slider {
+    width: 96%;
+    float: right;
+}
+.flickity-enabled.is-draggable {
+    -webkit-tap-highlight-color: transparent;
+    /* -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; */
+    user-select: none;
+}
+.flickity-enabled {
+    position: relative;
+}
+/* @media screen and (max-width: 1000px) */
+.content-slider-section .flickity-viewport {
+    border-top-left-radius: 200px;
+}
+.flickity-viewport {
+    overflow: hidden;
+    position: relative;
+}
