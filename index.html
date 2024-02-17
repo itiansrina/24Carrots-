@@ -15,17 +15,63 @@
     <link rel='stylesheet' id='sbi_styles-css' href='https://24carrots.com/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.2' media='all' />
     <link rel="stylesheet" href="style.css">
     <style>
-
-        .slider-image {
-            left: 0 !important;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-            z-index: -1;
+        .parent{
+            padding: 80px 20px;
+            background-color: #E9E4E0;
+            width: 100%;
+            height: 100%;
+            position: relative;
         }
+        .container{
+            font-family: "futura-pt", sans-serif;
+            display: flex;
+            margin: auto;
+            width: 100%;
+        }
+        .general{
+            width: 30%;
+        }
+        .services{
+            width: 70%;
+            display: flex;
+        }
+        .services div{
+            width: 25%;
+        }
+        ul li{
+            list-style-type: none;
+        }
+        .container h1{
+            font-weight: 500;
+            letter-spacing: 0.2rem;
+        }
+        .border{
+               width: 30%;
+               height: 2px;
+               background-color: rgb(19, 143, 19);
+               margin-top: 1rem;
+        }
+        .border1{
+            width: 100%;
+            height: 2px;
+            background-color: rgb(19, 143, 19);
+            margin-top: 1rem;
+        }
+        .social{
+            height: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 30px 2px 0px 10px;
+        }
+        .social div{
+            width: 50%;
+        }
+        .copyright{
+            display: flex;
+            padding:30px 2px 0px 10px ;
+            justify-content: space-between;
     
-        .slider-image.is-selected {
-            opacity: 1;
-            z-index: 0
         }
     </style>
 </head>
