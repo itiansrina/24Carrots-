@@ -348,4 +348,51 @@ ol {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
-
+figure {
+    margin: 0 0 -7px;
+}
+script {
+    display: none;
+}
+/* @media (max-width: 1000px) */
+.carrot-pin {
+    display: none;
+}
+.carrot-pin {
+    position: relative;
+}
+.flex_container.flex_two > .flex_item.flex_40 {
+    width: 40%;
+}
+.scroll-accordion__window {
+    position: relative;
+    border-radius: 100vw;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    overflow: hidden;
+    z-index: 0;
+}
+.scroll-accordion.js-transitions .scroll-accordion__window img {
+    transition: transform cubic-bezier(0.47, 0.29, 0.66, 0.88) 250ms;
+}
+.scroll-accordion__window img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+img {
+    border-style: none;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
