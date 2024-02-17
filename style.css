@@ -624,3 +624,16 @@ body a:visited {
     display: inline-block;
     z-index: 2;
 }
+.venue-sq-preview__content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.5rem;
+    color: #ffffff;
+}
+*{
+    position: absolute;
+    left: 0px;
+    transform: translateX(111.68%);
+}
