@@ -432,3 +432,30 @@ img {
     align-items: start;
     gap: 3rem;
 }
+/* @media screen and (max-width: 1000px) */
+.circle-content-block {
+    overflow-x: hidden;
+}
+*{
+background-image: url(https://24carrots.com/wp-content/uploads/2023/10/unforegetable-banner.png);
+}
+/* @media screen and (max-width: 1000px) */
+.circle-content-block .circle-banner {
+    min-height: 365px;
+}
+.circle-content-block .circle-banner {
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    /* min-height: 595px; */
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+}
+.circle-content-block .circle-content {
+    position: relative;
+    z-index: 2;
+    margin: -50px auto 0;
+}
