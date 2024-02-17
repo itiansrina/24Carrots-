@@ -98,17 +98,18 @@ h1, h2, h3, h4, h5, h6 {
 {
     display: flex;
     -webkit-box-direction: normal;
-    -moz-box-direction: normal;
     -webkit-box-orient: horizontal;
     flex-direction: row;
     flex-wrap: wrap;
     -webkit-box-pack: justify;
+    justify-content: space-between;
     align-content: space-between;
     -webkit-box-align: stretch;
     align-items: stretch;
     clear: both;
 
 }
+
 /* @media screen and (max-width: 1000px) */
 .content-slider-section .flex_container .flex_item {
     width: 100%;
@@ -117,6 +118,13 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.flex_container .flex_item
+{
+     order: 0;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    align-self: auto;
 }
 /* @media screen and (max-width: 1000px) */
 .content-slider-section .content-wrap {
@@ -136,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .twentyfour-content h3 {
     color: #647B4E;
-    text-align: center;
+    /* text-align: center; */
     font-family: "Rustica", sans-serif;
     font-size: 18px;
     font-style: normal;
