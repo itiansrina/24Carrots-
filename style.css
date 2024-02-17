@@ -27,7 +27,6 @@ body {
     display: inline;
     padding: 35px;
     color: #1A4122;
-    margin-bottom: 20px;
 
 }
 /* .entry-content {
@@ -506,16 +505,13 @@ img {
     display: block;
     z-index: -1;
 }
-*::before, *::after {
-    box-sizing: inherit;
-}
+
 .youtube-wrap {
     margin: 0px auto;
     display: block;
     position: relative;
     z-index: 2;
     padding: 30px;
-    max-width: 1200px;
 }
 .fluid-width-video-wrapper {
     width: 100%;
