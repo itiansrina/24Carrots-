@@ -397,3 +397,38 @@ img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
+.flex_container.flex_two > .flex_item.flex_40 {
+    width: 40%;
+}
+.flex_container.flex_two > .flex_item.flex_60 {
+    width: 60%;
+}
+/* @media screen and (max-width: 1000px) */
+.twentyfour-content h2 {
+    font-size: 3.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: -1px;
+    line-height: 3.3rem;
+}
+.twentyfour-content h2 {
+    color: #1A4122;
+    /* text-align: center; */
+    font-family: "F37 Caslon", serif;
+    /* font-size: 100px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    /* letter-spacing: -3px; */
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.text-left {
+    text-align: left !important;
+}
+.scroll-accordion__picker {
+    margin-top: 3rem;
+    display: grid;
+    align-items: start;
+    gap: 3rem;
+}
