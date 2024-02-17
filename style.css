@@ -495,12 +495,26 @@ img {
 .youtube-embed-block.grey-up:before {
     height: 885px;
 }
+.youtube-embed-block.grey-up:before {
+    content: '';
+    width: 100%;
+    /* height: 1195px; */
+    background-color: #e8ebe4;
+    position: absolute;
+    top: -770px;
+    display: block;
+    z-index: -1;
+}
+*::before, *::after {
+    box-sizing: inherit;
+}
 .youtube-wrap {
     margin: 0px auto;
     display: block;
     position: relative;
     z-index: 2;
     padding: 30px;
+    max-width: 1200px;
 }
 .fluid-width-video-wrapper {
     width: 100%;
